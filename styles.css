@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Ruda&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quattrocento:wght@700&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+header{
+   position:fixed;
+   top: 0;
+   width: 100%;
+   height: 5vw;
+}
+
+.name{
+    all:unset;
+    margin-left: 2vw;
+    font-family: 'Ruda', sans-serif;
+}
+.icons{
+    display: flex;
+    width: 13%;
+   justify-content:space-evenly;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:black;
+    color: white;
+    height: 6.5vw;
+    font-size: 1.3vw;
+}
+nav>ul{
+    all: unset;
+    display: flex;
+    width: 50%;
+   justify-content:space-evenly;
+    list-style: none;
+}
+.section{
+    margin-top: 6.5vw;
+    background-image: url("./image/pizza0.png");
+    color: white;
+    background-size: 100%;
+    width: 100%;
+    height: 48vw;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Ruda', sans-serif;
+}
+.feature{
+    background:rgba(0,0,0,0.5);
+    height: 48vw;
+  }
+.heading1{
+    font-size: 6vw;
+    width: 39vw;
+   display: flex;
+   flex-wrap: wrap;
+   margin-bottom: 2.6vw;
+   font-family: 'Quattrocento', serif;
+   letter-spacing: 0.1vw;
+   line-height: 1.2;
+}
+.line1{
+    background-color: #F24C4C;
+    width: 30vw;
+    height: 0.5vw;
+    margin-bottom: 3vw;
+}
+.para1{
+    width: 30vw;
+    font-size: 1.1vw;
+}
+.first{
+    margin-top: 4.7vw;
+    margin-left: 7vw;    
+}
+
+
+.section2{
+    padding-top: 3vw;
+    background-color: black;
+    color: white;
+    display: flex;
+   flex-direction: column;
+}
+.second{
+   display:grid;
+   justify-content: center;
+   text-align: center;
+   font-family: 'Quattrocento', serif;
+   padding-top: 2vw;
+}
+.line2{
+    background-color: #B62828;
+    width: 20vw;
+    height: 0.3vw;
+    margin-bottom: 3vw;
+    margin-top: 0.3vw;
+}
+.img1{
+    width:36vw;
+}
+h1{
+    font-size: 3vw;
+}
+h5{
+    font-size: 2vw;
+}
+.sec2{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 36% 36%;
+    column-gap: 12vw;
+    font-family: 'Ruda', sans-serif;
+    font-size: 1.1vw;
+}
+.line3{
+    background-color: #F24C4C;
+    width: 20vw;
+    height: 0.2vw;
+    margin-bottom: 0.5vw;
+}
+
+.section3{
+    background-color: black;
+    color: white;
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1vw;
+}
+.menu p{
+    width:75%
+}
+.sec3{
+    width:92%
+}
+.section4{
+    background-color: black;
+    color: white;
+    padding-bottom: 3vw;
+}
+li>img{
+    width:18vw;
+    height: 12vw;
+    margin-right: 1vw;
+}
+div>ul{
+    all: unset;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 30% 30%;
+}
+.list{
+    display: flex;
+    justify-self: start; 
+    margin: 20px;
+}
+.carousel{
+    background-color: black;
+    color: white;
+}
+.slide{
+    width: 80%;
+}
+.slider{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.gallary{
+    margin-top: 2vw;
+    background-color: black;
+    color: white;
+}
+.gall{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 50% 25%;
+    column-gap: 1vw;
+}
+.g1 img{
+    width: 100%;
+    height: 100%;
+}
+.g2{
+    display: flex;
+    gap: 0.5vw;
+}
+.g2_1{
+   display: flex;
+   flex-direction: column;
+   row-gap: 0.4vw;
+}
+.g2_1 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 1vw;
+}
+.g2_2{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5vw;
+ }
+ .g2_2 img{
+    width:150%;
+    height:100%;
+ }
+h5{
+    color: yellow;
+}
+.section4{
+    margin-top: 2vw;
+}
+.sec4{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+footer{
+    border: 0.3vw solid purple;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    height: 8vw;
+    font-size: 1vw;
+}
+.fimg{
+    margin-left: 3vw;
+    align-self: center;
+}
+.foot p{
+  all: unset;
+}
+.foot{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    margin-right: 5vw;
+    row-gap: 1vw;
+}
