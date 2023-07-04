@@ -173,13 +173,40 @@ div>ul{
 .slide{
     width: 80%;
 }
+.carousel-control-prev{
+    margin-left: -7vw;
+    width: 6vw;
+}
+.carousel-control-next{
+    margin-right: -7vw;
+    width: 6vw;  
+}
 .slider{
     display: flex;
     justify-content: center;
     align-content: center;
+    /* float: left;
+    width: 1vw;
+    height: 2vw;
+    margin: 0.8vw;
+    shape-outside: circle();
+    clip-path: circle(); */
 }
+.carousel-indicators [data-bs-target]{
+     float: left;
+    width: 1vw;
+    height: 2vw;
+    margin: 0.6vw;
+    shape-outside: circle();
+    clip-path: circle(); 
+
+}
+.carousel-indicators{
+ margin-bottom: -6vw;
+}
+
 .gallary{
-    margin-top: 2vw;
+    margin-top: 5vw;
     background-color: black;
     color: white;
 }
